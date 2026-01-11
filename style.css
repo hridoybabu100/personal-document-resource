@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    width: 87%;
+    margin: 0 auto;
+}
+body {
+    background-color: antiquewhite;
+}
+#header {
+    background-color: dodgerblue;
+}
+#nav-bar {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+#nav-bar h1 {
+    color: aliceblue;
+    margin-left: 10px;
+}
+ul {
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+   
+}
+ul li {
+    list-style: none;
+  
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+      padding: 6px 14px;
+      border-radius: 4px;
+      transition: 1s;
+}
+ul li a:hover {
+    background-color: blue;
+}
+#click {
+    display: none;
+}
+.menu {
+    display: none;
+    color: aliceblue;
+    font-size: 30px
+    
+}
+#hero {
+    background-image: url(./images/bg-3.avif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-contant {
+    padding: 100px 0px;
+}
+.hero-contant h1 {
+    color: aliceblue;
+    font-size: 65px;
+    font-weight: bold;
+
+}
+
+/* service section code hare  */
+#service {
+    background-color: darkslateblue;
+    margin-bottom: 50px;
+}
+#service  h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: aliceblue;
+   padding: 30px 0px;
+   text-align: center; 
+}
+#service-p {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding-bottom: 60px;
+}
+.service-box {
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.service-box i {
+    font-size: 40px;
+}
+.service-box *{
+    margin-bottom: 15px;
+}
+
+/* smart section code hare  */
+#smart {
+    background-color: cadetblue;
+    margin-bottom: 60px;
+    padding: 50px 0px;
+}
+#smart h2 {
+    text-align: center;
+    padding: 20px 0px;
+    color: aliceblue;
+    font-size: 40px;
+}
+#smart-p {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.smart-img img {
+    width: 500px;
+    border-radius: 10px;
+}
+.smart-contant {
+    text-align: left;
+}
+.smart-contant *{
+    margin-bottom: 20px;
+}
+.smart-contant a {
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 500;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* vanila section code start  */
+
+#vanila {
+    background-color: rgb(26, 4, 71);
+    padding: 60px 0px;
+    margin-bottom: 60px;
+}
+#vanila-p {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#vanila h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 40;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.vanila-card {
+    color: aliceblue;
+}
+.vanila-card a {
+    background-color: chartreuse;
+    padding: 3px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+.vanila-team-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.vanila-team {
+    width: 300px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.vanila-team *{
+    margin-bottom: 20px;
+}
+/* lisen section code hare  */
+
+#lisen {
+    margin-bottom: 60px;
+    padding: 40px 0px;
+     background-color: rgb(26, 4, 71);
+}
+#lisen h1 {
+    padding: 20px 0px;
+    color: aliceblue;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 800;
+}
+#lisen-p {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+.lisen-img img {
+    width: 550px;
+    border-radius: 10px;
+}
+.lisen-contant h2{
+    font-size: 30px;
+    color: aliceblue;
+}
+.lisen-contant a {
+    text-decoration: none;
+    background-color: rgb(236, 239, 233);
+    color: black;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+.lisen-img h2 {
+    color: aliceblue;
+    margin: 20px 0px;
+}
+.lisen-img p {
+    color: aliceblue;
+}
+      
+
+.icon {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.icon p i {
+    color: black;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.icon p {
+    background-color: azure;
+    padding: 6px 25px;
+    border-radius: 40px;
+}
+
