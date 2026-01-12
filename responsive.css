@@ -22,6 +22,20 @@
     border-radius: 10px;
 }
 
+/* contact section code hare  */
+#contact {
+    padding: 60px;
+}
+#from {
+
+    background-color: cornflowerblue;
+    padding: 60px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
 
 
 }
@@ -88,6 +102,38 @@ ul {
 .icon {
     justify-content: center;
 }
+/* contact section code hare  */
+#contact {
+    padding: 40px;
+}
+#from {
+
+    background-color: cornflowerblue;
+    padding: 40px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+/* car section code hare  */
+#car {
+    background-color: rgb(26, 4, 71);
+    /* padding: 50px 0px; */
+    /* text-align: center;  */
+}
+#card-p {
+    grid-template-columns: repeat(1, 1fr);
+}
+.card-box {
+    width: 100%;  
+}
+legend  {
+    padding: 0px 20px;
+    font-size: 30px;
+}
+#box {
+    padding: 10px;
+}
 
 }
 
@@ -99,15 +145,19 @@ ul {
     width: 98%;
     margin: 0 auto;
 }
+#nav-bar {
+
+    padding: 12px 0px;
+}
 #nav-bar h1 {
-    font-size: 25px;
+    font-size: 30px;
 }
 .menu {
-    font-size: 25px;
+    font-size: 30px;
 }
 ul {
     position: absolute;
-    top: 56px;
+    top: 67px;
     left: -100%;
     background-color: blueviolet;
     height: 50vh;
@@ -188,6 +238,23 @@ ul li a:hover {
 }
 #lisen h1 {
     font-size: 30px;
+}
+
+/* contact section code hare  */
+#contact {
+    padding: 20px;
+}
+#from {
+
+    background-color: cornflowerblue;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+#from input {
+    padding: 10px 6px;
 }
 
 
