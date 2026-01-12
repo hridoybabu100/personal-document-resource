@@ -11,15 +11,21 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: antiquewhite; 
+   
 }
 
 #header {
-    background-color: dodgerblue;
+    background-color: rgb(14, 14, 14);
+}
+#nav-bar img {
+    width: 50px;
+    border-radius: 50%;
 }
 
+
 #nav-bar {
-    background-color: dodgerblue;
+    background-color: rgb(26, 26, 27);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +60,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: blue;
+    background-color: rgb(198, 198, 206);
 }
 
 #click {
@@ -68,7 +74,7 @@ ul li a:hover {
 }
 
 #hero {
-    background-image: url(./images/bg-3.avif);
+    background-image: url(./images/3d-rendering-hexagonal-texture-background_23-2150796421.avif);
     height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,7 +94,7 @@ ul li a:hover {
 
 /* service section code hare  */
 #service {
-    background-color: darkslateblue;
+    background-color: #001931;
     margin-bottom: 50px;
 }
 
@@ -115,6 +121,9 @@ ul li a:hover {
     background-color: aliceblue;
     border-radius: 10px;
 }
+.service-box:hover {
+    box-shadow: 4px 4px 4px rgb(167, 15, 33);
+}
 
 .service-box i {
     font-size: 40px;
@@ -126,7 +135,7 @@ ul li a:hover {
 
 /* smart section code hare  */
 #smart {
-    background-color: cadetblue;
+    background-color: #001931;
     margin-bottom: 60px;
     padding: 50px 0px;
 }
@@ -355,4 +364,39 @@ legend  {
 }
 #box {
     padding: 20px;
+}
+
+/* al the last foter section  */
+
+#foter {
+    margin-top: 60px;
+    background-color: black;
+}
+#foter-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foter-box h2 {
+    color: aliceblue;
+    
+}
+.foter-box p {
+    color: aliceblue;
+}
+.icon i {
+    color: rgb(2, 11, 19);
+    font-size: 15px;
+    background-color: aliceblue;
+    width: 40px;
+    height: 30px;
+    border-radius: 40px;
+    padding-top: 8px;
+    transition: 0.5s;
+}
+.icon i:hover {
+    background-color: burlywood;
+}
+.foter-box img {
+    width: 300px;
 }

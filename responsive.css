@@ -35,6 +35,21 @@
     border-radius: 10px;
 
 }
+#card-p {
+    grid-template-columns: repeat(2, 1fr);
+}
+.card-box {
+    width: 100%;  
+}
+
+
+/* foter section code hare  */
+/* #foter-p {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 50px;
+} */
 
 
 
@@ -51,7 +66,7 @@
 
 ul {
     position: absolute;
-    top: 68px;
+    top: 65px;
     left: -100%;
     background-color: blueviolet;
     height: 100vh;
@@ -118,8 +133,6 @@ ul {
 /* car section code hare  */
 #car {
     background-color: rgb(26, 4, 71);
-    /* padding: 50px 0px; */
-    /* text-align: center;  */
 }
 #card-p {
     grid-template-columns: repeat(1, 1fr);
@@ -135,6 +148,23 @@ legend  {
     padding: 10px;
 }
 
+/* foter section code hare   */
+
+ #foter-p {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+} 
+.foter-box {
+    text-align: center;
+}
+.foter-box img {
+    width: 100%;
+} 
+
 }
 
 
@@ -147,7 +177,7 @@ legend  {
 }
 #nav-bar {
 
-    padding: 12px 0px;
+    padding: 3px 0px;
 }
 #nav-bar h1 {
     font-size: 30px;
@@ -157,7 +187,7 @@ legend  {
 }
 ul {
     position: absolute;
-    top: 67px;
+    top: 53px;
     left: -100%;
     background-color: blueviolet;
     height: 50vh;
@@ -256,6 +286,10 @@ ul li a:hover {
 #from input {
     padding: 10px 6px;
 }
+.foter-box p {
+    padding: 0px 7px;
+}
+
 
 
 }
